@@ -1,0 +1,11 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+DJANGO_SETTINGS_MODULE=config.settings.production
+DJANGO_SECRET_KEY=hash
+DJANGO_ADMIN_URL=adminurl/
+DJANGO_ALLOWED_HOSTS=*
+
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
